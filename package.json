@@ -1,0 +1,16 @@
+{
+  "name": "baby-monitor",
+  "version": "1.0.0",
+  "description": "WebRTC-based baby monitor web app.",
+  "main": "index.js",
+  "repository": "https://github.com/luki215/baby-monitor",
+  "author": "Lukáš Březina",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "http-server . & tsc --watch"
+  }
+}
